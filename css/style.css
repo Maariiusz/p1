@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#wrapper{
+    background-color:white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+}
+header img{
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+#tytul{
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 0 10px;
+  color: darkorange;
+  font-weight: bold;
+}
+
+nav, #menu_pod{
+    display: flex;
+}
+
+nav a, #menu_pod a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    background-color:darkorange;
+    padding: 10px 0;
+    flex: 1;
+
+}
+
+
+nav :hover,  #menu_pod :hover{
+    background-color:crimson;
+
+}
+
+#menu_pod a{
+    font-size: 16px;
+  }
+
+footer{
+    margin: 10px 0;
+    font-size: 17px;
+    text-align: center;
+    padding: 6px 0;
+    background-color:darkorange;
+    color: white;
+
+}
+
+article{
+    margin: 15px 2px 10px;
+}
+
+article p{
+    padding: 30px;
+    font-size: 20px;
+}
+article img {
+    float: left;
+    max-width: 100px;
+    width: 100%;
+
+
+}
+#wyniki{
+    font-size: 17px;
+    text-align: center;
+    background-color:chartreuse;
+    margin: 2px 0;
+}
+
+#liczby-lotto{
+    display: flex;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+#liczby-multi{
+    display: flex;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+#liczba{
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    max-width: 26px;
+    max-height: 26px;
+    background-color: darkorange;
+    margin: 0 auto;
+    flex: 1;
+    border-radius: 100%;
+    margin-bottom: 3px;
+}
+
+#przyciski_nawigacji{
+    display:flex;
+}
+
+#przycisk{
+    background-color: darkorange;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#przycisk a {
+    text-decoration: none;
+    flex: 1;
+    color: white;
+    font-size: 17px;
+
+
+}
+
+#odstep{
+    flex: 3;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#odstep a{
+  color: blue;
+	text-decoration:none;
+}
+
+#pasek{
+	text-align: center;
+	font-size: 18px;
+	margin: 10px;
+}
+
+#pasek [type=submit]{
+	padding: 5px;
+	background-color: darkorange;
+	color: white;
+	border: none;
+}
+#zestaw_liczb{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-content: space-between;
+  margin: 10px;
+
+}
+#liczba_ost{
+  width: 10%;
+  display:flex;
+}
+#dane{
+  width: 26px;
+  height: 26px;
+}
+#dane_przerwa{
+  margin: 5px;
+  font-size: 18px;
+}
+#liczba a{
+  text-decoration: none;
+  color: white;
+}
